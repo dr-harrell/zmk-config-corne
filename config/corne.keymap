@@ -28,14 +28,14 @@
             compatible = "zmk,behavior-tap-dance";
             label = "LSHIFTTAPDANCE";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>, <&sk LEFT_SHIFT>;
+            bindings = <&kp LEFT_SHIFT>, <&caps_word>, <&kp CAPSLOCK>;
         };
 
         RShiftTapDance: RShiftTapDance {
             compatible = "zmk,behavior-tap-dance";
             label = "RSHIFTTAPDANCE";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_SHIFT>, <&sk RIGHT_SHIFT>;
+            bindings = <&kp RIGHT_SHIFT>, <&caps_word>, <&kp CAPSLOCK>;
         };
     };
 
